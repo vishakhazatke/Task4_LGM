@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    max-width: 500px;
+    height: 100px;
+    margin: 10px auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgb(0, 0, 0);
+    background-color: black;
+    opacity: 0.8;
+}
+#calculate {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;
+    color: aliceblue;
+}
+.buttons {
+    display: grid;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    border-left: 3px solidrgb(255, 255, 255);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px 10px 10px 10px;
+}
+.button {
+    border: 0.5px solid rgb(255, 255, 255);
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 50%;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5px 5px 5px 5px;
+    transition: transform 0.5s;
+   
+}
+.button2{
+    color: red;
+    border: 5px solid rgb(255, 255, 255);
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.button2:hover{
+    color: rgb(255, 255, 255);
+    background: red;
+    transition: 0.5s ease-in-out;
+
+}
+#equal {
+    background-color: rgb(0, 255, 0);
+    color: rgb(248, 247, 247);
+}
+#equal:hover{
+    background: rgb(130, 236, 130);
+    transition: 0.5s ease-in-out;
+    color: black;
+    font-size: 35px;
+}
+.button:hover {
+    background-color: #000000;
+    color: white;
+    transition: 0.5s ease-in-out;
+    transform: translateY(-5px);
+}
